@@ -14,7 +14,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  one:
+  # one:
+  dump_contexts_to_log:
     runs-on: ubuntu-latest
     steps:
       - name: Dump GitHub context
